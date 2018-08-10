@@ -17,7 +17,7 @@
                 <div class="col-md-3 col-sm-4 col-xs-6">
                     <div class="entry">
                         <a class="thumbnail" href="<?php the_permalink() ?>">
-                            <img alt="<?php the_title() ?>" src="<?php the_post_thumbnail_url('300x170') ?>" />
+                            <img alt="<?php the_title() ?>" src="<?php the_post_thumbnail_url('400x278') ?>" />
                         </a>
                         <h3><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h3>
                         <div class="price"><?php echo number_format(get_field('price'), 0, ",", "."); ?> VNĐ</div>
